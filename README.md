@@ -54,6 +54,9 @@ cd <repository-folder>
 ```bash
 pip install numpy pandas matplotlib tensorflow scikit-learn pmdarima
 ```
+Open the Jupyter Notebook:
+jupyter notebook
+Run Sunspot Prediction.ipynb
 
 ## Outcome
 
