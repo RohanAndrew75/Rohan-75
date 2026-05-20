@@ -8,8 +8,21 @@ The project analyzes historical sunspot data, identifies trends and cyclical beh
 ## Dataset
 The project uses two datasets:
 
-1) train.csv -> Training dataset used for model development and learning patterns.
-2) test.csv -> Testing dataset used for evaluating and generating predictions.
+- `train.csv` → Training dataset used for model development and learning patterns.
+- `test.csv` → Testing dataset used for evaluating and generating predictions.
+
+---
+
+## Project Structure
+
+```bash
+├── train.csv
+├── test.csv
+├── Sunspot Prediction.ipynb
+└── README.md
+```
+
+---
 
 
 ## Features
@@ -37,31 +50,41 @@ The project uses two datasets:
 
 ## How to Run
 
+## Install Dependencies
+
+```bash
+pip install numpy pandas matplotlib tensorflow scikit-learn pmdarima
+```
+
 1. Clone the repository:
 
 ```bash
-git clone <repository-link>
+git clone <https://github.com/RohanAndrew75/Sun-Spot-Count-Forecasting>
 ```
 
 2. Navigate to the project folder:
 
 ```bash
-cd <repository-folder>
+cd <Sun-Spot-Count-Forecasting>
 ```
 
-3. Install dependencies:
+3. Open the Jupyter Notebook:
 
 ```bash
-pip install numpy pandas matplotlib tensorflow scikit-learn pmdarima
-```
-Open the Jupyter Notebook:
 jupyter notebook
-Run Sunspot Prediction.ipynb
+```
+
+4. Run:
+
+```bash
+Sunspot Prediction.ipynb
+```
+
+---
 
 ## Outcome
 
 The project demonstrates how machine learning and time series forecasting techniques can be applied to predict solar activity trends using historical sunspot data. The forecasting model helps analyze cyclical solar behavior and provides insights into future sunspot activity.
 
 ## Author
-
 Rohan Andrew
